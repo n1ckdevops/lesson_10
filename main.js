@@ -25,7 +25,6 @@ changeChapterTwo[7].before(changeChapterTwo[4]);
 changeChapterTwo[7].before(changeChapterTwo[5]);
 
 const changeChapterFive = document.querySelectorAll(".book:nth-child(5) ul li");
-console.log(document.querySelectorAll(".book:nth-child(5) ul li"));
 changeChapterFive[2].before(changeChapterFive[9]);
 changeChapterFive[6].before(changeChapterFive[2]);
 changeChapterFive[8].before(changeChapterFive[5]);
@@ -36,5 +35,4 @@ createElement.textContent = "Глава 8: За пределами ES6";
 const bookSix = document.querySelector(".book:nth-child(6) ul");
 bookSix.append(createElement);
 const chapterEight = document.querySelectorAll(".book:nth-child(6) ul li");
-console.log(chapterEight);
 chapterEight[9].before(chapterEight[10]);
